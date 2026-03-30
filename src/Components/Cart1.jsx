@@ -24,20 +24,11 @@ const Cart1 = () => {
 
      
       <input 
-        type="text"
-        placeholder="Enter your item"
-        value={inputValue}
-        onChange={handleChange}
+        type="text"placeholder="Enter your item" value={inputValue} onChange={handleChange}
       />
 
       
-      <input
-        type="number"
-        value={count}
-        onChange={handleCountChange}
-        min="0"
-        style={{ marginLeft: "10px", width: "60px" }}
-      />
+      <input type="number" value={count} onChange={handleCountChange} min="0" style={{ marginLeft: "10px", width: "60px" }}/>
 
       <button onClick={handleClick}>Click here</button>
     </div>
